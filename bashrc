@@ -125,6 +125,10 @@ alias ws9='ssh swchoi0102@imlab-ws9.snu.ac.kr'
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
 
+alias gpu0='CUDA_VISIBLE_DEVICES=0'
+alias gpu1='CUDA_VISIBLE_DEVICES=1'
+alias gpu2='CUDA_VISIBLE_DEVICES=2'
+
 # show git branch
 parse_git_branch() {
  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
