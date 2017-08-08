@@ -116,7 +116,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
-
+alias ws4='ssh swchoi0102@imlab-ws4.snu.ac.kr'
+alias ws5='ssh swchoi0102@imlab-ws5.snu.ac.kr'
 alias ws6='ssh swchoi0102@imlab-ws6.snu.ac.kr'
 alias ws7='ssh swchoi0102@imlab-ws7.snu.ac.kr'
 alias ws8='ssh swchoi0102@imlab-ws8.snu.ac.kr'
