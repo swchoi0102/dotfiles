@@ -147,3 +147,6 @@ export LD_LIBRARY_PATH=/usr/local/cuda/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PAT
 
 # bazel
 export PATH="$PATH:$HOME/bin"
+
+# localisation setting
+export LC_ALL=C
